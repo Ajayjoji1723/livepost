@@ -1,0 +1,19 @@
+[debug] [2023-05-03T11:30:40.772Z] ----------------------------------------------------------------------
+[debug] [2023-05-03T11:30:40.777Z] Command:       C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\firebase-tools\lib\bin\firebase.js login
+[debug] [2023-05-03T11:30:40.777Z] CLI Version:   11.23.1
+[debug] [2023-05-03T11:30:40.778Z] Platform:      win32
+[debug] [2023-05-03T11:30:40.778Z] Node Version:  v19.0.0
+[debug] [2023-05-03T11:30:40.778Z] Time:          Wed May 03 2023 17:00:40 GMT+0530 (India Standard Time)
+[debug] [2023-05-03T11:30:40.778Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-05-03T11:30:40.782Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[info] i  Firebase optionally collects CLI and Emulator Suite usage and error reporting information to help improve our products. Data is collected in accordance with Google's privacy policy (https://policies.google.com/privacy) and is not used to identify you.
+ 
+[info] i  To change your data collection preference at any time, run `firebase logout` and log in again. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://accounts.google.com/o/oauth2/auth?client_id=563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com&scope=email%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloudplatformprojects.readonly%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Ffirebase%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&response_type=code&state=1009466250&redirect_uri=http%3A%2F%2Flocalhost%3A9005
+[info] 
+[info] Waiting for authentication...
+[warn] !  Unable to fetch the CLI MOTD and remote config. 
+[debug] [2023-05-03T11:31:01.854Z] Failed to fetch MOTD FirebaseError: Failed to make request to https://firebase-public.firebaseio.com/cli.json
